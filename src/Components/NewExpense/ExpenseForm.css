@@ -1,0 +1,32 @@
+.new-expense__controls{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.new-expense__control{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.new-expense__control input{
+    min-height: 32px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 8px;
+}
+.new-expense__actions{
+    text-align: end;
+}
+.new-expense__actions button{
+    background-color: #570076;
+    margin: 5px;
+    min-width: 120px;
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 700;
+    border: none;
+    color: #dbd2ff;
+    cursor: pointer;
+}

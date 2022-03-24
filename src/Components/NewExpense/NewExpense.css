@@ -1,0 +1,30 @@
+.new-expense{
+    width: 70%;
+    margin: 20px auto;
+    background-color: #a18bee;
+    padding: 15px;
+}
+.new-expense__button{
+    background-color: #570076;
+    min-width: 120px;
+    padding: 14px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 700;
+    border: none;
+    display: block;
+    color: #dbd2ff;
+    margin: auto;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .new-expense{
+        width: 80%;
+    }
+}
+@media (max-width: 500px) {
+    .new-expense{
+        width: 98%;
+    }
+}
